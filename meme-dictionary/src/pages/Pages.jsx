@@ -1,10 +1,10 @@
 import React from 'react'
-import { HomePage } from './HomePage'
+import  HomePage  from './HomePage'
 import { Routes, Route } from 'react-router-dom'
 
 function Pages() {
   return (
-    <Routes location={location} key={location.pathname}>
+    <Routes>
         <Route path='/' element={<HomePage />} />
     </Routes>
   )

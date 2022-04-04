@@ -1,0 +1,41 @@
+.header{
+    background-color: #c7c6c6;
+    margin: 0;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    text-transform: uppercase;
+    justify-content:space-around;
+    text-align: center;
+    &__search-icon{
+            position: absolute;
+            top:50%;
+            left: 0%;
+            transform: translate(100%, -50%);
+            color: black;
+       
+    }
+    &__profile-image{
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 50%;
+    }
+    &__title{
+        font-weight: 700;
+        color: #f7f7f7;
+    }
+    &__input{
+        width: 40rem;
+        border: none;
+        border-radius: 3px;
+        padding: 2px 2px;
+        outline: none;
+        height: 3rem;
+        &--div{
+            display: relative;
+            
+        }
+    }
+    
+    align-items: center;
+}
